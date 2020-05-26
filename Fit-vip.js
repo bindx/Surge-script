@@ -3,7 +3,7 @@
 
 [Script]
 
-http-response,^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bindx/Surge-script/master/Fit-vip.js
+http-response ^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bindx/Surge-script/master/Fit-vip.js
 
 [MITM]
 hostname:bea.sportq.com
